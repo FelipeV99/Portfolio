@@ -1,0 +1,14 @@
+.socials-div{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 95vh;
+    width:12.5%;
+}
+
+
+.socials-div a{
+    color:var(--text-less-white);
+    opacity: .9;
+}

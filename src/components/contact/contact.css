@@ -1,0 +1,141 @@
+input{
+    border:0;
+    padding:0.5rem;
+    background-color: rgba(255, 255, 255, .2);
+    width: 15rem;
+    outline:none;
+    color:var(--text-less-white);
+    border-radius: 4px;
+}
+
+textarea{
+    border:0;
+    padding:0.5rem;
+    background-color: rgb(255, 255, 255, .2);
+    resize: none;
+    width: 15rem;
+    height:6rem;
+    color:var(--text-less-white);
+    border-radius: 4px;
+}
+
+
+#contact{
+    padding-top: 10vh;
+    background-color: rgb(0, 0, 0, .5);
+    min-height: 70vh;
+    height:auto;
+    padding-bottom:10vh;
+}
+
+#contact-title{
+    text-align: center;
+}
+
+.form-style{
+    display: flex;
+    flex-direction: column;
+    width:16rem;
+    
+}
+
+.contact-container{
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: space-evenly;
+    gap:2rem;
+}
+
+.contact-text{
+    margin-top: .1rem;
+    width:100%;
+    text-align: justify;
+}
+
+.team-up{
+    
+    width:16rem;
+}
+
+label{
+    margin-bottom: 0.3rem;
+}
+
+.margin-label{
+    margin-top: 0.4rem;
+    width: 100%;
+}
+
+#btn-message{
+    margin-top:1rem;
+    width:16rem;
+    padding:0.5rem;
+}
+
+.contact-container-content{
+    margin: 0 auto;
+    width:var(--container-width-md);
+}
+
+@media (max-width:600px){
+
+    .form-style{
+        margin-top: 1rem;
+        width:18rem;
+    }
+
+    .contact-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-up{
+        width: 18rem;
+    }
+
+    .contact-container-content{
+        width:var(--container-width-phone);
+
+    }
+
+    #btn-message{
+        width:18rem;
+    }
+
+    textarea{
+        width: 17rem;
+    }
+
+    input{
+        width:17rem;
+    }
+}
+
+@media (max-width:380px){
+
+    .form-style{
+        margin-top: 1rem;
+        width:15rem;
+    }
+
+    .contact-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-up{
+        width: 15rem;
+    }
+
+    #btn-message{
+        width:15rem;
+    }
+
+    textarea{
+        width: 14rem;
+    }
+
+    input{
+        width:14rem;
+    }
+}

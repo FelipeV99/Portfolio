@@ -1,0 +1,53 @@
+[
+    {
+      "key":1,
+      "imageName": "VitaCan Complete.png",
+      "thumbName": "vitacan thumb.png",
+      "type": ["UX","UI","Featured Projects","All"],
+      "title": "VitaCan",
+      "fitHeight": false
+    },
+    {
+      "key":2,
+        "imageName": "Banners  Complete.jpg",
+        "thumbName": "banners thumb.jpg",
+        "type": ["UI","All"],
+        "title": "Banners",
+        "fitHeight": true
+    },
+    {
+      "key":3,
+       "imageName": "TH Complete.png",
+        "thumbName": "teams health thumb.png",
+        "type": ["UI","Featured Projects", "All"],
+        "title": "Teams Health Logo",
+        "fitHeight": true
+    },
+    {
+      "key":4,
+      "imageName": "fashion 1.png",
+      "thumbName": "fashion 1 thumb.png",
+      "type":["Art","All"],
+      "title": "Dita Korkelia",
+      "fitHeight": true
+    },
+    {
+      "key":5,
+      "imageName": "No Valueless Art.jpeg",
+      "thumbName": "No Valueless Art Thumb.png",
+      "type":["Art", "All"],
+      "title": "No Valueless Art",
+      "fitHeight": true
+    },
+    {
+      "key":6,
+      "imageName": "Portfolio complete.png",
+      "thumbName": "Portfolio thumb.png",
+      "type":["Front End", "All"],
+      "title": "Personal Portfolio",
+      "fitHeight": true
+    }
+
+
+
+  ]
