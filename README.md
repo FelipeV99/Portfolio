@@ -1,1 +1,1 @@
-Page for mypersonal portfolio. Built using ReactJs
+Page for my personal portfolio. Built with ReactJs
