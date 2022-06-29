@@ -66,6 +66,18 @@ label{
     width: 100%;
 }
 
+#email-link{
+    font-weight: bolder;
+
+}
+
+#email-link:hover{
+    
+    transition:0.2s;
+    color: var(--off-white-brighter);
+
+}
+
 #btn-message{
     margin-top:1rem;
     width:16rem;

@@ -1,8 +1,7 @@
 import React, { useRef } from 'react'
 import './contact.css'
 import emailjs from 'emailjs-com'
-import { AiFillMail } from 'react-icons/ai'
-import { AiFillEnvironment } from 'react-icons/ai'
+import {motion, AnimateSharedLayout} from 'framer-motion'
 export const Contact = () => {
   const form = useRef();
 
@@ -19,7 +18,7 @@ export const Contact = () => {
         <div className="contact-container">
           <div className="team-up">
             <h5>Ready to Team Up?</h5>
-            <p className='contact-text'>You can find me on my socials, you can also connect with me trough this form or write me directly to <a href="mailto:afelipea99@gmail.com">afelipea99@gmail.com</a></p>
+            <p className='contact-text'>You can contact me through this form, find me on my socials or write me directly to <a id='email-link' href="mailto:afelipea99@gmail.com">afelipea99@gmail.com</a></p>
           </div>
           <form className="form-style" ref={form} onSubmit={sendEmail}>
             <label htmlFor="name">Name</label>
@@ -28,7 +27,10 @@ export const Contact = () => {
             <input type="email" name='email' required />
             <label className='margin-label' htmlFor="message">Message</label>
             <textarea name='message' required autoCapitalize='words' />
-            <button className="btn btn-primary" id="btn-message" type="submit">Send Message</button>
+            <motion.button
+            whileHover={{scale:1.03}}
+            whileTap={{scale:0.97}}
+            className="btn btn-primary" id="btn-message" type="submit">Send Message</motion.button>
           </form>
         </div>
       </div>
