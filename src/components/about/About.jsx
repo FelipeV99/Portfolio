@@ -11,7 +11,7 @@ const About = () => {
         <div className='bottom'>
             <p className="about-p text-shadow"
             >I enjoy creating digital products, both designing and developing them. I have studied art and informatic engineering at Universidad de la Sabana, fields which I consider essential for what I do.
-              <br /><br />I am focused on creating products centered on people. Products that are accessible, practical, escalable and aesthetic.
+              <br /><br />I am focused on creating products centered on people. Products that are accessible, practical, scalable and aesthetic.
               <br /><br />The tools I use vary depending on the project, usually for design I’ll use Figma, Photoshop and Illustrator. Aside from that I’ve also experience in Adobe Xd and Invision. For front end development I have skills in HTML, CSS and React.js
             </p>
             <div>
