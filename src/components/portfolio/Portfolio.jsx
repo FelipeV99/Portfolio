@@ -18,12 +18,12 @@ const Portfolio = () => {
           <motion.button type="button" onClick={() => setActiveProjectType("Featured Projects")} className={activeProjectType === "Featured Projects" ? "active btn-tag" : "inactive btn-tag"}
             whileHover={{ scale: 1.08 }}
           >Featured Projects</motion.button>
-          <motion.button type="button" onClick={() => setActiveProjectType("UX")} className={activeProjectType === "UX" ? "active btn-tag" : "inactive btn-tag"}
+          <motion.button type="button" onClick={() => setActiveProjectType("UX/UI")} className={activeProjectType === "UX/UI" ? "active btn-tag" : "inactive btn-tag"}
             whileHover={{ scale: 1.08 }}
-          >UX</motion.button>
-          <motion.button type="button" onClick={() => setActiveProjectType("UI")} className={activeProjectType === "UI" ? "active btn-tag" : "inactive btn-tag"}
+          >UX/UI</motion.button>
+          {/* <motion.button type="button" onClick={() => setActiveProjectType("UI")} className={activeProjectType === "UI" ? "active btn-tag" : "inactive btn-tag"}
             whileHover={{ scale: 1.08 }}
-          >UI</motion.button>
+          >UI</motion.button> */}
           <motion.button type="button" onClick={() => setActiveProjectType("Front End")} className={activeProjectType === "Front End" ? "active btn-tag" : "inactive btn-tag"}
             whileHover={{ scale: 1.08 }}
           >Front End</motion.button>

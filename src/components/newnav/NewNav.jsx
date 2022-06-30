@@ -51,7 +51,7 @@ const NewNav = () => {
                     }}
           className='nav-link' href="#contact" onClick={RemoveHamb}>Contact</motion.a>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-            <FaTimes size="20" />
+            <FaTimes size="20"/>
           </button>
         </nav>
         <button className='nav-btn hamb-btn' onClick={showNavbar} ref={hambRef}>

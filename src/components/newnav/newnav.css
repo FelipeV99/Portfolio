@@ -38,6 +38,10 @@ nav a{
     height: 100%;
 }
 
+.change-stroke{
+    -webkit-text-stroke: 10px rgba(255,0,0,1);
+}
+
 
 .nav-close-btn{
     align-self: center;

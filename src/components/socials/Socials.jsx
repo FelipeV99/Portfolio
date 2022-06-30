@@ -18,6 +18,7 @@ const Socials = () => {
         <motion.a href="https://github.com/FelipeV99" target="_blank"
         whileHover={{scale:1.3}}
         ><FaGithubSquare size="20" /></motion.a>
+        <span className='vertical-line'></span>
     </div>
   )
 }

@@ -3,7 +3,7 @@
       "key":1,
       "imageName": "VitaCan Complete.png",
       "thumbName": "vitacan thumb.png",
-      "type": ["UX","UI","Featured Projects","All"],
+      "type": ["UX/UI","Featured Projects","All"],
       "title": "VitaCan",
       "fitHeight": false
     },
@@ -11,7 +11,7 @@
       "key":2,
         "imageName": "Banners  Complete.jpg",
         "thumbName": "banners thumb.jpg",
-        "type": ["UI","All"],
+        "type": ["UX/UI","All"],
         "title": "Banners",
         "fitHeight": true
     },
@@ -19,7 +19,7 @@
       "key":3,
        "imageName": "TH Complete.png",
         "thumbName": "teams health thumb.png",
-        "type": ["UI","Featured Projects", "All"],
+        "type": ["UX/UI","Featured Projects", "All"],
         "title": "Teams Health Logo",
         "fitHeight": true
     },
@@ -43,10 +43,51 @@
       "key":6,
       "imageName": "Portfolio complete.png",
       "thumbName": "Portfolio thumb.png",
-      "type":["Front End", "All"],
+      "type":["Front End", "All", "Featured Projects"],
       "title": "Personal Portfolio",
       "fitHeight": true
+    },
+    {
+      "key":7,
+      "imageName": "spud complete.png",
+      "thumbName": "spud thumb.png",
+      "type":["All","Art", "Featured Projects"],
+      "title": "Spud Infinity Illustration",
+      "fitHeight": true
+    },
+    {
+      "key":8,
+      "imageName": "Card details complete.png",
+      "thumbName": "card details thumb.png",
+      "type":["All","UX/UI", "Featured Projects"],
+      "title": "Card Details",
+      "fitHeight": false
+    },
+    {
+      "key":9,
+      "imageName": "maynooth complete.png",
+      "thumbName": "maynooth thumb.png",
+      "type":["All","UX/UI", "Featured Projects"],
+      "title": "Maynooth",
+      "fitHeight": false
+    },
+    {
+      "key":10,
+      "imageName": "self complete.jfif",
+      "thumbName": "self thumb.jfif",
+      "type":["All","Art"],
+      "title": "Self",
+      "fitHeight": true
+    },
+    {
+      "key":11,
+      "imageName": "portraits complete.jpg",
+      "thumbName": "portraits thumb.jfif",
+      "type":["All","Art"],
+      "title": "Portrait Studies",
+      "fitHeight": false
     }
+
 
 
 
