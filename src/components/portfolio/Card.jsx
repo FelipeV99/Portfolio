@@ -2,21 +2,21 @@ import React from 'react'
 import './portfolio.css'
 import { useState } from 'react'
 import CardModal from './CardModal'
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
 const Card = (props) => {
   const [isOpen, setIsOpen] = useState(false)
   return (
     <div className='margin-card'>
-      <div onClick={()=>{setIsOpen(true)}}>
-        <motion.img className="thumb" src={require("../../assets/" + props.thumbName)} alt={props.title} 
-        whileHover={{scale:1.1}}
-        whileTap={{scale:0.9}}
+      <div onClick={() => { setIsOpen(true) }}>
+        <motion.img className="thumb" src={require("../../assets/" + props.thumbName)} alt={props.title}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
         />
         {/* <p>{props.title}</p> */}
-        </div>
-        <CardModal open={isOpen} close={()=>{setIsOpen(false)}} imageName={props.imageName} fitHeight={props.fitHeight}>
-        </CardModal>
-        
+      </div>
+      <CardModal open={isOpen} close={() => { setIsOpen(false) }} imageName={props.imageName} fitHeight={props.fitHeight}>
+      </CardModal>
+
     </div>
   )
 }
