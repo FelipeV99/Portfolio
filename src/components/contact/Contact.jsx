@@ -18,7 +18,7 @@ export const Contact = () => {
         <div className="contact-container">
           <div className="team-up">
             <h5>Ready to Team Up?</h5>
-            <p className='contact-text'>You can contact me through this form, find me on my socials or write me directly to <a id='email-link' href="mailto:afelipea99@gmail.com">afelipea99@gmail.com</a></p>
+            <p className='contact-text'>You can contact me through this form, find me on my socials or write me directly to my email<a id='email-link' href="mailto:afelipea99@gmail.com">afelipea99@gmail.com</a></p>
           </div>
           <form className="form-style" ref={form} onSubmit={sendEmail}>
             <label htmlFor="name">Name</label>
